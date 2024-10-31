@@ -1,0 +1,33 @@
+.inside th {
+	text-align: left;
+}
+.inside table {
+	margin-left: 10px;
+}
+tbody tr.even td, tr.odd th {
+	background-color: #cac9c9;
+}
+tbody tr.odd td, tr.odd th {
+	background-color: #dfdfdf;
+}
+.postbox .inside, .stuffbox .inside {
+	text-align: left;
+}
+.inside table {
+	width: 100%;
+}
+table input#upload_image_button {
+	width: 100px;
+}
+.shiftable {
+	background-image: url("http://code.jquery.com/ui/1.9.1/themes/base/images/ui-icons_888888_256x240.png");
+	background-position: -128px -48px;
+	width: 10px;
+	height: 10px;
+}
+ul.pagination {
+	margin-left: 10px;
+}
+ul.pagination, ul.pagination li, ul.pagination li a {
+	display: inline;
+}
